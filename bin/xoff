@@ -1,3 +1,4 @@
 #!/bin/sh
 
 xrandr --auto; xrandr --output "$1" --off
+command -v bgresize >/dev/null && bgresize
